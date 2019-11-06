@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TransactionsAggregatorData", "TransactionsAggregatorData\TransactionsAggregatorData.pyproj", "{E408F6D4-7515-4ACC-83AF-BFA4E080BA2A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Common", "Common\Common.pyproj", "{6E9C964D-252E-4B74-A1E9-01E1D62C80AC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TransactionsAggregatorDataCSV", "TransactionsAggregatorDataCSV\TransactionsAggregatorDataCSV.pyproj", "{9FE88642-9FE9-4421-B7F2-9CD9B91CAF06}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TransactionsAggregatorAbstract", "TransactionsAggregatorAbstract\TransactionsAggregatorAbstract.pyproj", "{882A9DA5-8EE2-4A37-9E72-46D5B4E0AAFE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TransactionsAggregator", "TransactionsAggregator\TransactionsAggregator.pyproj", "{22C36FE7-EC5C-4FDF-A574-8ED261978E78}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TransactionsAggregatorTest", "TransactionsAggregatorTest\TransactionsAggregatorTest.pyproj", "{4D14DADD-C054-4B70-8EE2-E4890D701730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E408F6D4-7515-4ACC-83AF-BFA4E080BA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E408F6D4-7515-4ACC-83AF-BFA4E080BA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9C964D-252E-4B74-A1E9-01E1D62C80AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9C964D-252E-4B74-A1E9-01E1D62C80AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE88642-9FE9-4421-B7F2-9CD9B91CAF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE88642-9FE9-4421-B7F2-9CD9B91CAF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882A9DA5-8EE2-4A37-9E72-46D5B4E0AAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882A9DA5-8EE2-4A37-9E72-46D5B4E0AAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C36FE7-EC5C-4FDF-A574-8ED261978E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C36FE7-EC5C-4FDF-A574-8ED261978E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D14DADD-C054-4B70-8EE2-E4890D701730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D14DADD-C054-4B70-8EE2-E4890D701730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A013255A-2327-4285-87A0-3039F13BDEE7}
+	EndGlobalSection
+EndGlobal
