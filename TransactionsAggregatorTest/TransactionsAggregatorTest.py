@@ -16,7 +16,7 @@ class TransactionsAggregatorTest(TestCase):
         check = output == expectedOutput
 
         wrapper = TransactionsAggregatorDataWrapperCSV.GetInstance()
-        wrapper.SerializeTransactionHistoryOutput("output2.csv", output)
+        wrapper.SerializeTransactionHistoryOutput("outputs\output.csv", output)
         assert check
     def test_ToTransactionHistoryOutputCSV(self):
 
@@ -28,7 +28,7 @@ class TransactionsAggregatorTest(TestCase):
         output = service.ToTransactionHistoryOutput(inputs)
         expectedOutput = TransactionsGenerator.GetTransactionHistoryOutput3Banks()
         check = output == expectedOutput
-        wrapper.SerializeTransactionHistoryOutput("outputs\output.csv", output)
+        wrapper.SerializeTransactionHistoryOutput("outputs\outptInputsFromCSV.csv", output)
         assert check
 if __name__ == "__main__":
     unittest.main(exit = False)
